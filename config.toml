@@ -51,3 +51,5 @@ pygmentsCodeFences = true
   text = "#000000"
   code-quote-bg = "#1D1F21" # background color for quotes and code blocks
   copyright = "#404040" # copyright text color
+
+disqusShortName: geekjournal # whatever you set up on Disqus
