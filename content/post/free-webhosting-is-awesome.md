@@ -1,7 +1,6 @@
 ---
 title: "Free Webhosting Is AWESOME!"
-date: 2018-01-08T23:11:26-06:00
-draft: true
+date: 2018-01-08T23:19:19-06:00
 ---
 
 It's true. I've been squatting on several domain names for a while, including this one, which means I've been a bad internet citizen.  I hope to correct that in 2018 starting with this post. 
