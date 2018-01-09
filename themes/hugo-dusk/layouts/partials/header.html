@@ -14,13 +14,15 @@
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
     </div> <!--siteTitle-->
     
-
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"><div class="nav-item-title">{{ .Name }}</div></a>
     {{ end }}
-
   </nav>
+<details><summary>Disclaimer</summary>
+The postings on this site are my own and do not necessarily represent the postings, strategies or opinions of any employer I work for, have worked for, or will work for. Furthermore, these postings are thoughts at a point-in-time and do not necessarily represent or influence current or future thoughts on the subject matter which may be materially different from what have been posted.
+</details>
+
   <hr/>
 </div>
 

@@ -32,11 +32,11 @@ pygmentsCodeFences = true
   url = "/tags/"
 
 [params.meta]
-  keywords = "blog, tech"
-  description = "Personal blog."
+  keywords = "blog, tech, computers, software, programming, business"
+  description = "Geekjournal is a personal blog."
 
 [params]
- # github = "github id"
+  github = "geekjournal"
  # gitlab = "gitlab id"
   twitter = "@realgeekjournal"
  # linkedin = "linkedin id"
