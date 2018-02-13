@@ -4,7 +4,6 @@ date: 2018-02-12T10:49:41-06:00
 draft: false
 ---
 
-# Clearing Terminal Command Line
 Note, these commands work on a MAC using the Terminal program.  I haven't tested these anywhere else.
 
 OH MY GOODNESS!  I wish I had learned these commands a long time ago.  As I begin to do more with long commands, particulary operations style tasks with programs like Kubernetes, I find myself more and more wanting to clear the command line. I already knew about *reverse search*, but what I didn't know was how to clear a command if I didn't find the one I wanted in reverse search.  If you don't know what revese search is, go google for it now.  `ctrl`+`R` is a wonderful command and everyone who uses a command line should know it.  As for clearning long lines, I found this great [post on StackOverflow](https://stackoverflow.com/questions/9679776/how-do-i-clear-delete-the-current-line-in-terminal).

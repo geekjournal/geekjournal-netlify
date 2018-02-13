@@ -7,7 +7,7 @@ a { color: {{ .Param "colors.text" }}; }
 
 pre {
   background: {{ .Param "colors.code-quote-bg" }};
-  border: 1px solid {{ .Param "colors.text" }};
+  border: 1px solid {{ .Param "colors.code-quote-bg" }};
   border-radius: 5px;
 }
 
@@ -35,6 +35,7 @@ th {
 }
 
 .siteTitle a { color: {{ .Param "colors.title" }}; 
+  
   font-family: Muli,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
   font-weight:bold;
 }

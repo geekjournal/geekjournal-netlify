@@ -108,9 +108,11 @@ code {
   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
-
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */ 
   line-height: 1.4em;
+  
+  color: #ee1f5e;
+  background-color: #f7f5f5;
 }
 
 blockquote {
@@ -126,7 +128,7 @@ th, td {
 /* site title  */
 .siteTitle {
   font-size: 2.5em;
-  margin-bottom: 0.2em;
+  
 }
 
 .siteTitle a {
@@ -415,6 +417,17 @@ th, td {
     width: 50%;
 }
 
+.disclaimer {
+  margin-bottom: 0em;
+  margin-top: 0em;
+  /*font-weight: bold; */
+  padding: 0em;
+  font-size: .8em;
+  color: #000000;
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 400px) {
 
   nav {
@@ -425,6 +438,8 @@ th, td {
     flex-grow: 2;
     text-align: left;
     flex-basis: 0;
+    margin-bottom: 0em;
+
   }
 
   .nav-item-title {
